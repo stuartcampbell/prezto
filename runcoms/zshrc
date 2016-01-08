@@ -12,6 +12,10 @@ fi
 
 # Customize to your needs...
 
+export PYTHONPATH=$HOME/code/ase:$PYTHONPATH
+export PATH=$HOME/code/ase/tools:$PATH
+
+
 # Aliases
 if [[ -s "${ZDOTDIR:-$HOME}/.aliases" ]]; then
   source "${ZDOTDIR:-$HOME}/.aliases"
